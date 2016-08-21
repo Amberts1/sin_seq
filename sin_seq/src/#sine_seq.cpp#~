@@ -1,0 +1,27 @@
+#include "ros/ros.h"
+#include "std_msgs/String.h"
+#include "std_msgs/Float32.h"
+#include "geometry/Twist.h"
+
+ros::Float32 pi = 3.14159;
+
+int main(int argc, char **argv)
+{
+
+   ros::Float32 y = 0;
+   ros::Float32 x = 0;
+   ros::Float32 freq;
+   ros::Float32 rad = freq *2 *pi;
+
+   do{
+
+   y = sin(rad);
+   cout<< "[Publisher] has x = " << x << " and y = " << y
+
+   x++
+   }while(x<10);
+   //ros::Time::now().toSec(10);
+
+   return 0;
+
+}
