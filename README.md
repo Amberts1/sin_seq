@@ -16,3 +16,5 @@
 # - Your code and the ROSBag on a GitHub.com repository and send the link to Sebastien."
 
 #"We ask that you submit the task by 8pm Sunday night(August 21)."
+#
+#sin_seq_pub publishes the /cec topic and sin_seq_sub is a subscriber program which listens and prints out the contents of /cec
